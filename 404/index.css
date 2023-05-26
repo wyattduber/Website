@@ -28,6 +28,5 @@
 }
 
 .logo {
-    filter: brightness(0%) invert();
     width: 85%;
 }

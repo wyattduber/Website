@@ -1,8 +1,9 @@
 .grid {
     grid-template-areas:
-          'home about projects resume'
-          'welcomebox welcomebox github github'
-          'welcomebox welcomebox mastodon email';
+        'home about projects resume'
+        'welcomebox welcomebox github github'
+        'welcomebox welcomebox linkedin email'
+        'creditbox creditbox creditbox creditbox';
 }
 
 .welcomebox {
@@ -48,7 +49,7 @@
     width: 20%;
 }
 
-.mastodon-svg {
+.linkedin-svg {
     filter: brightness(0%) invert();
     width: 50%;
 }
@@ -56,4 +57,10 @@
 .email-svg {
     filter: brightness(0%) invert();
     width: 50%;
+}
+
+.creditbox {
+    grid-area: creditbox;
+    text-align: center;
+    justify-content: unset;
 }
