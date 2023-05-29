@@ -5,12 +5,9 @@
             'cydaq cydaqinfo cydaqinfo cydaqinfo'
             'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
             'myresume myresumeinfo myresumeinfo myresumeinfo'
-            'site siteinfo siteinfo siteinfo'
-            'bonebot bonebotinfo bonebotinfo bonebotinfo'
-            'p3d p3dinfo p3dinfo p3dinfo'
-            'hardcorelists hardcorelistsinfo hardcorelistsinfo hardcorelistsinfo'
-            'volleyball volleyballinfo volleyballinfo volleyballinfo'
-            'couriernew couriernewinfo couriernewinfo couriernewinfo'
+            'umaryforwife umaryforwifeinfo umaryforwifeinfo umaryforwifeinfo'
+            'gitgood gitgoodinfo gitgoodinfo gitgoodinfo'
+            'mcdbridge mcdbridgeinfo mcdbridgeinfo mcdbridgeinfo'
             'school school school school'
             'cpre480 cpre480info cpre480info cpre480info'
             'cpre381 cpre381info cpre381info cpre381info'
@@ -79,32 +76,32 @@
     justify-content: unset;
 }
 
-.site {
-    grid-area: site;
+.umaryforwife {
+    grid-area: umaryforwife;
 }
 
-.siteinfo {
-    grid-area: siteinfo;
+.umaryforwifeinfo {
+    grid-area: umaryforwifeinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.bonebot {
-    grid-area: bonebot;
+.gitgood {
+    grid-area: gitgood;
 }
 
-.bonebotinfo {
-    grid-area: bonebotinfo;
+.gitgoodinfo {
+    grid-area: gitgoodinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.p3d {
-    grid-area: p3d;
+.mcdbridge {
+    grid-area: mcdbridge;
 }
 
-.p3dinfo {
-    grid-area: p3dinfo;
+.mcdbridgeinfo {
+    grid-area: mcdbridgeinfo;
     text-align: left;
     justify-content: unset;
 }
@@ -196,7 +193,6 @@
 }
 
 .logo {
-    filter: brightness(0%) invert();
     width: 85%;
 }
 
