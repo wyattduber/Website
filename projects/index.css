@@ -2,9 +2,9 @@
     grid-template-areas:
             'home about projects resume'
             'personal personal personal personal'
-            'dysonbp01 dysonbp01info dysonbp01info dysonbp01info'
-            'trouttoss trouttossinfo trouttossinfo trouttossinfo'
-            'matrixdisplay matrixdisplayinfo matrixdisplayinfo matrixdisplayinfo'
+            'cydaq cydaqinfo cydaqinfo cydaqinfo'
+            'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
+            'myresume myresumeinfo myresumeinfo myresumeinfo'
             'site siteinfo siteinfo siteinfo'
             'bonebot bonebotinfo bonebotinfo bonebotinfo'
             'p3d p3dinfo p3dinfo p3dinfo'
@@ -41,32 +41,40 @@
     justify-content: unset;
 }
 
-.dysonbp01 {
-    grid-area: dysonbp01;
+.thiswebsite {
+    grid-area: thiswebsite;
 }
 
-.dysonbp01info {
-    grid-area: dysonbp01info;
+.thiswebsitelogo {
+    filter: brightness(0%) invert();
+}
+
+.thiswebsiteinfo {
+    grid-area: thiswebsiteinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.trouttoss {
-    grid-area: trouttoss;
+.cydaq {
+    grid-area: cydaq;
 }
 
-.trouttossinfo {
-    grid-area: trouttossinfo;
+.cydaqlogo {
+    width: 80%;
+}
+
+.cydaqinfo {
+    grid-area: cydaqinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.matrixdisplay {
-    grid-area: matrixdisplay;
+.myresume {
+    grid-area: myresume;
 }
 
-.matrixdisplayinfo {
-    grid-area: matrixdisplayinfo;
+.myresumeinfo {
+    grid-area: myresumeinfo;
     text-align: left;
     justify-content: unset;
 }
