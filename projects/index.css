@@ -2,16 +2,16 @@
     grid-template-areas:
             'home about projects resume'
             'personal personal personal personal'
-            'cydaq cydaqinfo cydaqinfo cydaqinfo'
             'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
             'myresume myresumeinfo myresumeinfo myresumeinfo'
             'umaryforwife umaryforwifeinfo umaryforwifeinfo umaryforwifeinfo'
             'gitgood gitgoodinfo gitgoodinfo gitgoodinfo'
             'mcdbridge mcdbridgeinfo mcdbridgeinfo mcdbridgeinfo'
             'school school school school'
-            'cpre480 cpre480info cpre480info cpre480info'
-            'cpre381 cpre381info cpre381info cpre381info'
-            'coms309 coms309info coms309info coms309info'
+            'cydaq cydaqinfo cydaqinfo cydaqinfo'
+            'se422x se422xinfo se422xinfo se422xinfo'
+            'cs319 cs319info cs319info cs319info'
+            'cs309 cs309info cs309info cs309info'
             'cpre288 cpre288info cpre288info cpre288info'
             'cpre186 cpre186info cpre186info cpre186info';
 }
@@ -48,20 +48,6 @@
 
 .thiswebsiteinfo {
     grid-area: thiswebsiteinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cydaq {
-    grid-area: cydaq;
-}
-
-.cydaqlogo {
-    width: 80%;
-}
-
-.cydaqinfo {
-    grid-area: cydaqinfo;
     text-align: left;
     justify-content: unset;
 }
@@ -106,88 +92,53 @@
     justify-content: unset;
 }
 
-.hardcorelists {
-    grid-area: hardcorelists;
-}
-
-.hardcorelistsinfo {
-    grid-area: hardcorelistsinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.volleyball {
-    grid-area: volleyball;
-}
-
-.volleyballinfo {
-    grid-area: volleyballinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.couriernew {
-    grid-area: couriernew;
-}
-
-.couriernewinfo {
-    grid-area: couriernewinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
 .school {
     grid-area: school;
     text-align: left;
     justify-content: unset;
 }
 
-.cpre480 {
-    grid-area: cpre480;
+.cydaq {
+    grid-area: cydaq;
 }
 
-.cpre480info {
-    grid-area: cpre480info;
+.cydaqlogo {
+    width: 100%;
+    align-items: center;
+}
+
+.cydaqinfo {
+    grid-area: cydaqinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.cpre381 {
-    grid-area: cpre381;
+.se422x {
+    grid-area: se422x;
 }
 
-.cpre381info {
-    grid-area: cpre381info;
+.se422xinfo {
+    grid-area: se422xinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.coms309 {
-    grid-area: coms309;
+.cs319 {
+    grid-area: cs319;
 }
 
-.coms309info {
-    grid-area: coms309info;
+.cs319info {
+    grid-area: cs319info;
     text-align: left;
     justify-content: unset;
 }
 
-.cpre288 {
-    grid-area: cpre288;
+.cs309 {
+    grid-area: cs309;
 }
 
-.cpre288info {
-    grid-area: cpre288info;
-    text-align: left;
-    justify-content: unset;
-}
-
-.cpre186 {
-    grid-area: cpre186;
-}
-
-.cpre186info {
-    grid-area: cpre186info;
+.cs309info {
+    grid-area: cs309info;
     text-align: left;
     justify-content: unset;
 }
