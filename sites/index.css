@@ -1,10 +1,13 @@
 .grid {
     grid-template-areas:
           'home sites projects resume'
-          'portrait portrait intro intro'
-          'portrait portrait intro intro'
-          'bio1 bio1 bio2 bio2'
-          'bio1 bio1 bio2 bio2';
+          'siteinfo siteinfo siteinfo siteinfo'
+          'wedding weddinginfo weddinginfo weddinginfo'
+          'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
+          'gitlab gitlabinfo gitlabinfo gitlabinfo'
+          'bitwarden bitwardeninfo bitwardeninfo bitwardeninfo'
+          'amp ampinfo ampinfo ampinfo'
+          'memos memosinfo memosinfo memosinfo';
 }
 
 .home {
@@ -23,31 +26,72 @@
     grid-area: sites;
 }
 
-.portrait {
-    grid-area: portrait;
-    background-image: url(resources/Portrait.jpg);
-    background-size: cover;
-}
-
-.intro {
-    grid-area: intro;
+.siteinfo {
+    grid-area: siteinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.bio1 {
-    grid-area: bio1;
+.wedding {
+    grid-area: wedding;
+}
+
+.weddinginfo {
+    grid-area: weddinginfo;
     text-align: left;
     justify-content: unset;
 }
 
-.bio2 {
-    grid-area: bio2;
+.nextcloud {
+    grid-area: nextcloud;
+}
+
+.nextcloudinfo {
+    grid-area: nextcloudinfo;
     text-align: left;
     justify-content: unset;
 }
 
-.logo {
-    filter: brightness(0%) invert();
+.gitlab {
+    grid-area: gitlab;
+}
+
+.gitlabinfo {
+    grid-area: gitlabinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.bitwarden {
+    grid-area: bitwarden;;
+}
+
+.bitwardeninfo {
+    grid-area: bitwardeninfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.amp {
+    grid-area: amp;
+}
+
+.ampinfo {
+    grid-area: ampinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.memos {
+    grid-area: memos;
+}
+
+.memosinfo {
+    grid-area: memosinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.icon {
     width: 85%;
 }

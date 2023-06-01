@@ -1,8 +1,10 @@
 .grid {
     grid-template-areas:
-        'home about projects resume'
+        'home sites projects resume'
         'welcomebox welcomebox github github'
         'welcomebox welcomebox linkedin email'
+        'aboutme aboutme aboutme aboutme'
+        'aboutme aboutme aboutme aboutme'
         'creditbox creditbox creditbox creditbox';
 }
 
@@ -12,8 +14,8 @@
     justify-content: unset;
 }
 
-.about {
-    grid-area: about;
+.sites {
+    grid-area: sites;
 }
 
 .resume {
@@ -57,6 +59,12 @@
 .email-svg {
     filter: brightness(0%) invert();
     width: 50%;
+}
+
+.aboutme {
+    grid-area: aboutme;
+    text-align: left;
+    justify-content: unset;
 }
 
 .creditbox {

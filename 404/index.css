@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'home about projects resume'
+          'home sites projects resume'
           'notfound notfound notfound notfound'
           'notfound notfound notfound notfound';
 }
@@ -23,8 +23,8 @@
     grid-area: projects;
 }
 
-.about {
-    grid-area: about;
+.sites {
+    grid-area: sites;
 }
 
 .logo {
