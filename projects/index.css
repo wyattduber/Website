@@ -61,6 +61,7 @@
     justify-content: unset;
 }
 
+/*
 .umaryforwife {
     grid-area: umaryforwife;
 }
@@ -70,6 +71,7 @@
     text-align: left;
     justify-content: unset;
 }
+*/
 
 .gitgood {
     grid-area: gitgood;
