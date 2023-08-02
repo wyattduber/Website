@@ -6,7 +6,7 @@
           'wedding weddinginfo weddinginfo weddinginfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
           'gitlab gitlabinfo gitlabinfo gitlabinfo'
-          'statsig statsiginfo statsiginfo statsiginfo'
+          'upptime upptimeinfo upptimeinfo upptimeinfo'
           'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
           'amp ampinfo ampinfo ampinfo';
@@ -64,12 +64,12 @@
     justify-content: unset;
 }
 
-.statsig {
-    grid-area: statsig;
+.upptime {
+    grid-area: upptime;
 }
 
-.statsiginfo {
-    grid-area: statsiginfo;
+.upptimeinfo {
+    grid-area: upptimeinfo;
     text-align: left;
     justify-content: unset;
 }
