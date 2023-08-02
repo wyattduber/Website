@@ -2,12 +2,14 @@
     grid-template-areas:
           'home sites projects resume'
           'siteinfo siteinfo siteinfo siteinfo'
+          'siteinfo siteinfo siteinfo siteinfo'
           'wedding weddinginfo weddinginfo weddinginfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
           'gitlab gitlabinfo gitlabinfo gitlabinfo'
-          'bitwarden bitwardeninfo bitwardeninfo bitwardeninfo'
-          'amp ampinfo ampinfo ampinfo'
-          'memos memosinfo memosinfo memosinfo';
+          'statsig statsiginfo statsiginfo statsiginfo'
+          'memos memosinfo memosinfo memosinfo'
+          'paste pasteinfo pasteinfo pasteinfo'
+          'amp ampinfo ampinfo ampinfo';
 }
 
 .home {
@@ -62,22 +64,12 @@
     justify-content: unset;
 }
 
-.bitwarden {
-    grid-area: bitwarden;;
+.statsig {
+    grid-area: statsig;
 }
 
-.bitwardeninfo {
-    grid-area: bitwardeninfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.amp {
-    grid-area: amp;
-}
-
-.ampinfo {
-    grid-area: ampinfo;
+.statsiginfo {
+    grid-area: statsiginfo;
     text-align: left;
     justify-content: unset;
 }
@@ -88,6 +80,26 @@
 
 .memosinfo {
     grid-area: memosinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.paste {
+    grid-area: paste;
+}
+
+.pasteinfo {
+    grid-area: pasteinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.amp {
+    grid-area: amp;
+}
+
+.ampinfo {
+    grid-area: ampinfo;
     text-align: left;
     justify-content: unset;
 }
