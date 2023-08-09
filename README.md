@@ -1,5 +1,3 @@
-<img src="home/resources/Logo.svg" alt="Logo" title="Logo" align="right" width="200" height="200" />
-
 # Website
 
 ## About
