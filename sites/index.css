@@ -3,6 +3,7 @@
           'home sites projects resume'
           'siteinfo siteinfo siteinfo siteinfo'
           'siteinfo siteinfo siteinfo siteinfo'
+          'resumebox resumeinfo resumeinfo resumeinfo'
           'wedding weddinginfo weddinginfo weddinginfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
           'gitlab gitlabinfo gitlabinfo gitlabinfo'
@@ -30,6 +31,16 @@
 
 .siteinfo {
     grid-area: siteinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.resumebox {
+    grid-area: resumebox;
+}
+
+.resumeinfo {
+    grid-area: resumeinfo;
     text-align: left;
     justify-content: unset;
 }
