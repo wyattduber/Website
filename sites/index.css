@@ -12,6 +12,7 @@
           'paste pasteinfo pasteinfo pasteinfo'
           'filepizza filepizzainfo filepizzainfo filepizzainfo'
           'nginx nginxinfo nginxinfo nginxinfo'
+          'homer homerinfo homerinfo homerinfo'
           'amp ampinfo ampinfo ampinfo';
 }
 
@@ -123,6 +124,16 @@
 
 .nginxinfo {
     grid-area: nginxinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.homer {
+    grid-area: homer;
+}
+
+.homerinfo {
+    grid-area: homerinfo;
     text-align: left;
     justify-content: unset;
 }
