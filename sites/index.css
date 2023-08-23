@@ -10,6 +10,8 @@
           'upptime upptimeinfo upptimeinfo upptimeinfo'
           'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
+          'filepizza filepizzainfo filepizzainfo filepizzainfo'
+          'nginx nginxinfo nginxinfo nginxinfo'
           'amp ampinfo ampinfo ampinfo';
 }
 
@@ -101,6 +103,26 @@
 
 .pasteinfo {
     grid-area: pasteinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.filepizza {
+    grid-area: filepizza;
+}
+
+.filepizzainfo {
+    grid-area: filepizzainfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.nginx {
+    grid-area: nginx;
+}
+
+.nginxinfo {
+    grid-area: nginxinfo;
     text-align: left;
     justify-content: unset;
 }
