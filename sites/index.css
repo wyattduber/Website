@@ -7,6 +7,7 @@
           'wedding weddinginfo weddinginfo weddinginfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
           'gitlab gitlabinfo gitlabinfo gitlabinfo'
+          'plane planeinfo planeinfo planeinfo'
           'searxng searxnginfo searxnginfo searxnginfo'
           'upptime upptimeinfo upptimeinfo upptimeinfo'
           'memos memosinfo memosinfo memosinfo'
@@ -78,6 +79,17 @@
     text-align: left;
     justify-content: unset;
 }
+
+.plane {
+    grid-area: plane;
+}
+
+.planeinfo {
+    grid-area: planeinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
 
 .searxng {
     grid-area: searxng;
