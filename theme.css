@@ -28,12 +28,18 @@ body {
     animation-duration: 0.2s;
 }
 
+/* Add coloring to non-button-box links */
 a:link {
   color: turquoise;
 }
 
 a:visited {
   color: hotpink;
+}
+
+/* Disallow colors on button boxes, it looks weird */
+a.button.box {
+  color: inherit;
 }
 
 .grid {
