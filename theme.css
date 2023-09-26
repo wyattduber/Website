@@ -28,6 +28,14 @@ body {
     animation-duration: 0.2s;
 }
 
+a:link {
+  color: turquoise;
+}
+
+a:visited {
+  color: hotpink;
+}
+
 .grid {
     display: grid;
     place-content: center;
