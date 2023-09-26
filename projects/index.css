@@ -4,7 +4,6 @@
             'personal personal personal personal'
             'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
             'myresume myresumeinfo myresumeinfo myresumeinfo'
-            'gitgood gitgoodinfo gitgoodinfo gitgoodinfo'
             'mcdbridge mcdbridgeinfo mcdbridgeinfo mcdbridgeinfo'
             'school school school school'
             'cydaq cydaqinfo cydaqinfo cydaqinfo'
@@ -57,28 +56,6 @@
 
 .myresumeinfo {
     grid-area: myresumeinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-/*
-.umaryforwife {
-    grid-area: umaryforwife;
-}
-
-.umaryforwifeinfo {
-    grid-area: umaryforwifeinfo;
-    text-align: left;
-    justify-content: unset;
-}
-*/
-
-.gitgood {
-    grid-area: gitgood;
-}
-
-.gitgoodinfo {
-    grid-area: gitgoodinfo;
     text-align: left;
     justify-content: unset;
 }
