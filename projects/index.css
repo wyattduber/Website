@@ -76,10 +76,6 @@
     justify-content: unset;
 }
 
-.cydaq {
-    grid-area: cydaq;
-}
-
 .cydaqlogo {
     width: 100%;
     align-items: center;
@@ -89,6 +85,10 @@
     grid-area: cydaqinfo;
     text-align: left;
     justify-content: unset;
+}
+
+.cydaq {
+    grid-area: cydaq;
 }
 
 .se422x {
