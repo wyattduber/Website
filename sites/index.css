@@ -5,10 +5,12 @@
           'siteinfo siteinfo siteinfo siteinfo'
           'resumebox resumeinfo resumeinfo resumeinfo'
           'wedding weddinginfo weddinginfo weddinginfo'
+          'homepage homepageinfo homepageinfo homepageinfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
           'gitlab gitlabinfo gitlabinfo gitlabinfo'
           'plane planeinfo planeinfo planeinfo'
           'searxng searxnginfo searxnginfo searxnginfo'
+          'hoppscotch hoppscotchinfo hoppscotchinfo hoppscotchinfo'
           'upptime upptimeinfo upptimeinfo upptimeinfo'
           'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
@@ -60,6 +62,16 @@
     justify-content: unset;
 }
 
+.homepage {
+    grid-area: homepage;
+}
+
+.homepageinfo {
+    grid-area: homepageinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
 .nextcloud {
     grid-area: nextcloud;
 }
@@ -97,6 +109,16 @@
 
 .searxnginfo {
     grid-area: searxnginfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.hoppscotch {
+    grid-area: hoppscotch;
+}
+
+.hoppscotchinfo {
+    grid-area: hoppscotchinfo;
     text-align: left;
     justify-content: unset;
 }
