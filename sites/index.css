@@ -15,6 +15,7 @@
           'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
           'filepizza filepizzainfo filepizzainfo filepizzainfo'
+          'docs docsinfo docsinfo docsinfo'
           'nginx nginxinfo nginxinfo nginxinfo'
           'homer homerinfo homerinfo homerinfo'
           'amp ampinfo ampinfo ampinfo';
@@ -159,6 +160,16 @@
 
 .filepizzainfo {
     grid-area: filepizzainfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.docs {
+    grid-area: docs;
+}
+
+.docsinfo {
+    grid-area: docsinfo;
     text-align: left;
     justify-content: unset;
 }
