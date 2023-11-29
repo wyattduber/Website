@@ -5,6 +5,7 @@
             'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
             'myresume myresumeinfo myresumeinfo myresumeinfo'
             'mcdbridge mcdbridgeinfo mcdbridgeinfo mcdbridgeinfo'
+            'cashapp cashappinfo cashappinfo cashappinfo'
             'school school school school'
             'cydaq cydaqinfo cydaqinfo cydaqinfo'
             'se422x se422xinfo se422xinfo se422xinfo'
@@ -66,6 +67,16 @@
 
 .mcdbridgeinfo {
     grid-area: mcdbridgeinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.cashapp {
+    grid-area: cashapp;
+}
+
+.cashappinfo {
+    grid-area: cashappinfo;
     text-align: left;
     justify-content: unset;
 }
