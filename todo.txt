@@ -1,3 +1,0 @@
-To-Do: 
-
-1. Have live uptime status indicators next to sites that I am hosting (some kind of js framework exists im sure)

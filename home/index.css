@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-        'home sites projects resume'
+        'home projects sites resume'
         'welcomebox welcomebox github github'
         'welcomebox welcomebox linkedin email'
         'aboutme aboutme aboutme aboutme'
@@ -14,16 +14,16 @@
     justify-content: unset;
 }
 
+.projects {
+    grid-area: projects;
+}
+
 .sites {
     grid-area: sites;
 }
 
 .resume {
     grid-area: resume;
-}
-
-.projects {
-    grid-area: projects;
 }
 
 .home {

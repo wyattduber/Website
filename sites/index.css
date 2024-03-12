@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-          'home sites projects resume'
+          'home projects sites resume'
           'siteinfo siteinfo siteinfo siteinfo'
           'siteinfo siteinfo siteinfo siteinfo'
           'resumebox resumeinfo resumeinfo resumeinfo'
@@ -17,7 +17,6 @@
           'filepizza filepizzainfo filepizzainfo filepizzainfo'
           'docs docsinfo docsinfo docsinfo'
           'nginx nginxinfo nginxinfo nginxinfo'
-          'homer homerinfo homerinfo homerinfo'
           'amp ampinfo ampinfo ampinfo';
 }
 
@@ -180,16 +179,6 @@
 
 .nginxinfo {
     grid-area: nginxinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.homer {
-    grid-area: homer;
-}
-
-.homerinfo {
-    grid-area: homerinfo;
     text-align: left;
     justify-content: unset;
 }

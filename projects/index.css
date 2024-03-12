@@ -1,6 +1,6 @@
 .grid {
     grid-template-areas:
-            'home sites projects resume'
+            'home projects sites resume'
             'personal personal personal personal'
             'thiswebsite thiswebsiteinfo thiswebsiteinfo thiswebsiteinfo'
             'myresume myresumeinfo myresumeinfo myresumeinfo'
@@ -23,12 +23,12 @@
     grid-area: resume;
 }
 
-.sites {
-    grid-area: sites;
-}
-
 .projects {
     grid-area: projects;
+}
+
+.sites {
+    grid-area: sites;
 }
 
 .personal {
