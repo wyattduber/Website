@@ -16,7 +16,6 @@
           'paste pasteinfo pasteinfo pasteinfo'
           'filepizza filepizzainfo filepizzainfo filepizzainfo'
           'docs docsinfo docsinfo docsinfo'
-          'nginx nginxinfo nginxinfo nginxinfo'
           'amp ampinfo ampinfo ampinfo';
 }
 
@@ -169,16 +168,6 @@
 
 .docsinfo {
     grid-area: docsinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.nginx {
-    grid-area: nginx;
-}
-
-.nginxinfo {
-    grid-area: nginxinfo;
     text-align: left;
     justify-content: unset;
 }
