@@ -7,7 +7,6 @@
           'wedding weddinginfo weddinginfo weddinginfo'
           'homepage homepageinfo homepageinfo homepageinfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
-          'gitlab gitlabinfo gitlabinfo gitlabinfo'
           'plane planeinfo planeinfo planeinfo'
           'searxng searxnginfo searxnginfo searxnginfo'
           'hoppscotch hoppscotchinfo hoppscotchinfo hoppscotchinfo'
@@ -77,16 +76,6 @@
 
 .nextcloudinfo {
     grid-area: nextcloudinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.gitlab {
-    grid-area: gitlab;
-}
-
-.gitlabinfo {
-    grid-area: gitlabinfo;
     text-align: left;
     justify-content: unset;
 }
