@@ -7,13 +7,10 @@
           'wedding weddinginfo weddinginfo weddinginfo'
           'homepage homepageinfo homepageinfo homepageinfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
-          'plane planeinfo planeinfo planeinfo'
           'searxng searxnginfo searxnginfo searxnginfo'
-          'hoppscotch hoppscotchinfo hoppscotchinfo hoppscotchinfo'
           'upptime upptimeinfo upptimeinfo upptimeinfo'
           'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
-          'filepizza filepizzainfo filepizzainfo filepizzainfo'
           'docs docsinfo docsinfo docsinfo'
           'amp ampinfo ampinfo ampinfo';
 }
@@ -80,33 +77,12 @@
     justify-content: unset;
 }
 
-.plane {
-    grid-area: plane;
-}
-
-.planeinfo {
-    grid-area: planeinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-
 .searxng {
     grid-area: searxng;
 }
 
 .searxnginfo {
     grid-area: searxnginfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.hoppscotch {
-    grid-area: hoppscotch;
-}
-
-.hoppscotchinfo {
-    grid-area: hoppscotchinfo;
     text-align: left;
     justify-content: unset;
 }
@@ -137,16 +113,6 @@
 
 .pasteinfo {
     grid-area: pasteinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.filepizza {
-    grid-area: filepizza;
-}
-
-.filepizzainfo {
-    grid-area: filepizzainfo;
     text-align: left;
     justify-content: unset;
 }
