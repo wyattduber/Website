@@ -3,13 +3,8 @@
           'home projects sites resume'
           'siteinfo siteinfo siteinfo siteinfo'
           'siteinfo siteinfo siteinfo siteinfo'
-          'resumebox resumeinfo resumeinfo resumeinfo'
-          'wedding weddinginfo weddinginfo weddinginfo'
-          'homepage homepageinfo homepageinfo homepageinfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
-          'searxng searxnginfo searxnginfo searxnginfo'
           'upptime upptimeinfo upptimeinfo upptimeinfo'
-          'memos memosinfo memosinfo memosinfo'
           'paste pasteinfo pasteinfo pasteinfo'
           'docs docsinfo docsinfo docsinfo'
           'amp ampinfo ampinfo ampinfo';
@@ -37,36 +32,6 @@
     justify-content: unset;
 }
 
-.resumebox {
-    grid-area: resumebox;
-}
-
-.resumeinfo {
-    grid-area: resumeinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.wedding {
-    grid-area: wedding;
-}
-
-.weddinginfo {
-    grid-area: weddinginfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.homepage {
-    grid-area: homepage;
-}
-
-.homepageinfo {
-    grid-area: homepageinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
 .nextcloud {
     grid-area: nextcloud;
 }
@@ -77,32 +42,12 @@
     justify-content: unset;
 }
 
-.searxng {
-    grid-area: searxng;
-}
-
-.searxnginfo {
-    grid-area: searxnginfo;
-    text-align: left;
-    justify-content: unset;
-}
-
 .upptime {
     grid-area: upptime;
 }
 
 .upptimeinfo {
     grid-area: upptimeinfo;
-    text-align: left;
-    justify-content: unset;
-}
-
-.memos {
-    grid-area: memos;
-}
-
-.memosinfo {
-    grid-area: memosinfo;
     text-align: left;
     justify-content: unset;
 }
