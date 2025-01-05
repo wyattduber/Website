@@ -85,3 +85,33 @@
 .icon {
     width: 85%;
 }
+
+/* Ensure the container for the icon and status has a column layout */
+.grid a.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Style the status div */
+.status {
+    margin-top: 10px; /* Add space between the icon and the status */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.status.online {
+    color: green;
+}
+
+.status.offline {
+    color: red;
+}
+
+.grid a {
+    margin-bottom: 0px;
+}
+

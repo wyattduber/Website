@@ -72,3 +72,15 @@
     text-align: center;
     justify-content: unset;
 }
+
+.grid a.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove underline from links */
+}
+
+.grid a {
+    margin-bottom: 0px;
+}
