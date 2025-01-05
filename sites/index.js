@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function checkSiteStatus(url, selector) {
-    fetch(url, { method: 'HEAD', mode: 'no-cors' })
+    fetch(url, { method: 'HEAD' })
         .then(response => {
 	    console.log(`Site: ${url}, Status: ${response.status}`);
             if (response.ok) {
