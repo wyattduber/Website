@@ -4,6 +4,7 @@
           'siteinfo siteinfo siteinfo siteinfo'
           'siteinfo siteinfo siteinfo siteinfo'
           'nextcloud nextcloudinfo nextcloudinfo nextcloudinfo'
+	  'plex plexinfo plexinfo plexinfo'
           'upptime upptimeinfo upptimeinfo upptimeinfo'
           'paste pasteinfo pasteinfo pasteinfo'
           'docs docsinfo docsinfo docsinfo'
@@ -38,6 +39,16 @@
 
 .nextcloudinfo {
     grid-area: nextcloudinfo;
+    text-align: left;
+    justify-content: unset;
+}
+
+.plex {
+    grid-area: plex;
+}
+
+.plexinfo {
+    grid-area: plexinfo;
     text-align: left;
     justify-content: unset;
 }
