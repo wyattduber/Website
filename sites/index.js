@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const sites = [
         { selector: '.nextcloud', url: 'https://cloud.wyattduber.com/' },
-	{ selector: '.plex', url: 'https://plex.wyattduber.com/' },
+	{ selector: '.plex', url: 'https://plex.wyattduber.com/web/index.html' },
         { selector: '.upptime', url: 'https://status.wyattduber.com/' },
         { selector: '.paste', url: 'https://paste.wyattduber.com/' },
         { selector: '.docs', url: 'https://docs.wyattduber.com/' },
