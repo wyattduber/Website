@@ -14,11 +14,14 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function checkSiteStatus(url, selector) {
-    const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-    fetch(proxyUrl + url, { method: 'HEAD' })
+    fetch(url, { method: 'HEAD' })
         .then(response => {
-            console.log(`Site: ${url}, Status: ${response.status}`);
-            updateStatus(selector, response.ok);
+	    console.log(`Site: ${url}, Status: ${response.status}`);
+            if (response.ok) {
+                updateStatus(selector, true);
+            } else {
+                updateStatus(selector, false);
+            }
         })
         .catch(() => {
             updateStatus(selector, false);
